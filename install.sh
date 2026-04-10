@@ -1,4 +1,14 @@
 #!/bin/bash
-ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/shell/.bashrc ~/.bashrc
-ln -sf ~/dotfiles/shell/.bash_aliases ~/.bash_aliases
+
+DOT_FILES=~/.dotfiles
+
+#Settings git
+ln -sf $DOT_FILES/git/.gitconfig ~/.gitconfig
+
+#Settings aliases
+ln -sf $DOT_FILES/shell/.bash_aliases ~/.bash_aliases
+
+#Settings bash
+ln -sf $DOT_FILES/shell/.bashrc ~/.bashrc
+
+echo "Settings applied!"
