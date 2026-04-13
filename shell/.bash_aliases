@@ -14,7 +14,8 @@ alias full="cd Projetos"
 
 #apt
 alias update="sudo apt update && sudo apt upgrade -y"
-alias myip="curs ifconfig.me"
+
+alias myip="curl ifconfig.me"
 
 #python
 alias wp='source /home/porcupine_ubuntu/.World_Python/bin/activate'
