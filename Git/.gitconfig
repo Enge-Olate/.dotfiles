@@ -3,6 +3,9 @@
 [user]
 	name = ""
 	email = ""
+[alias]
+	s = status -s
+	c = commit -m
 [core]
 	editor = vi
 	fileMode = false
