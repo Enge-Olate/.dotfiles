@@ -3,7 +3,7 @@
 DOT_FILES=~/.dotfiles
 
 #Settings git
-ln -sf $DOT_FILES/git/.gitconfig ~/.gitconfig
+ln -sf $DOT_FILES/Git/.gitconfig ~/.gitconfig
 
 #Settings aliases
 ln -sf $DOT_FILES/shell/.bash_aliases ~/.bash_aliases
