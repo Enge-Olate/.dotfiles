@@ -15,6 +15,7 @@ alias full="cd Projetos"
 #apt
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
+alias aptl='apt list --upgradable'
 
 #IP
 alias myip="curl ifconfig.me"
