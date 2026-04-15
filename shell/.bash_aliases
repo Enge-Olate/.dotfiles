@@ -13,7 +13,8 @@ alias h="cd ~"
 alias full="cd Projetos"
 
 #apt
-alias update="sudo apt update && sudo apt upgrade -y"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
 
 #IP
 alias myip="curl ifconfig.me"
