@@ -4,8 +4,9 @@
 	name = ""
 	email = ""
 [alias]
-	s = status -s
-	c = commit -m
+	s = status 
+	c = commit 
+	b = branch
 [core]
 	editor = vi
 	fileMode = false
