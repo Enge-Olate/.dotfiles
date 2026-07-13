@@ -118,3 +118,10 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Ativa o mapeamento e o LED do Scroll Lock no ambiente gráfico (X11)
+xset led named "Scroll Lock"
+export PATH="$HOME/.local/bin:$PATH"
+
+
+

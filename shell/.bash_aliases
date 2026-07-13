@@ -24,3 +24,5 @@ alias venv='python3 -m venv .venv'
 alias avenv='source .venv/bin/activate'
 alias dvenv='deactivate'
 
+#Python/Poetry
+alias pa='eval $(poetry env activate)'
