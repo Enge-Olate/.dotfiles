@@ -1,9 +1,11 @@
+
 [init]
 	defaultBranch = main
 [user]
-	name = ""
-	email = ""
+	name = olate
+	email = 100814308+Enge-Olate@users.noreply.github.com
 [alias]
+	a = add
 	s = status 
 	c = commit 
 	b = branch
@@ -26,3 +28,32 @@
 
 [include]
 	path = ~/.gitconfig_local
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	
+# Sempre inicializa e atualiza submódulos automaticamente
+[submodule]
+    recurse = true
+
+# Otimização de performance em I/O de disco
+[core]
+    # Monitora alterações via sistema de arquivos (muito útil em repositórios grandes)
+    fsmonitor = true
+    # Pré-carrega o índice para acelerar status e diffs
+    preloadindex = true
+
+# Garante atualização de tags de forma segura ao puxar alterações
+[fetch]
+    prune = true
+    pruneTags = true
+    
+# Redireciona qualquer URL HTTPS do GitHub para SSH
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+# Redireciona qualquer URL HTTPS do GitLab para SSH
+[url "git@gitlab.com:"]
+    insteadOf = https://gitlab.com/

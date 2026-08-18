@@ -118,6 +118,7 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+<<<<<<< HEAD
 
 # Ativa o mapeamento e o LED do Scroll Lock no ambiente gráfico (X11)
 xset led named "Scroll Lock"
@@ -125,3 +126,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 
 
+=======
+export FLASK_ENV=development
+export FLASK_APP=run.py
+xset led named "Scroll Lock"
+>>>>>>> 1836666 (Atualizando .gitconfig para clonar projetos de forma eficiênte.)

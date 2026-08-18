@@ -24,5 +24,11 @@ alias venv='python3 -m venv .venv'
 alias avenv='source .venv/bin/activate'
 alias dvenv='deactivate'
 
+<<<<<<< HEAD
 #Python/Poetry
 alias pa='eval $(poetry env activate)'
+=======
+#Docker
+alias d='docker'
+
+>>>>>>> 1836666 (Atualizando .gitconfig para clonar projetos de forma eficiênte.)
